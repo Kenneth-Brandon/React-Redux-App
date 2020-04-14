@@ -1,0 +1,15 @@
+describe the Finite State Machine pattern and it's relationship to building Redux applications
+
+A state machine is a mathematical model of computation. It’s an abstract concept whereby the machine can have different states, but at a given time fulfills only one of them.
+
+implement Redux Middleware libraries into a Redux Store using `applyMiddleware`
+
+Redux Middleware intercepts every action that is dispatched before it gets to the reducer - Middleware can: stop actions - forward an action untouched - dispatch a different action (or change the action itself) - dispatch multiple actions
+
+https://www.codementor.io/@vkarpov/beginner-s-guide-to-redux-middleware-du107uyud
+
+effectively use `redux-thunk` and asynchronous action creators to consume data from external API's
+
+https://daveceddia.com/what-is-a-thunk/
+
+https://medium.com/fullstack-academy/thunks-in-redux-the-basics-85e538a3fe60
