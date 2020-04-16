@@ -9,14 +9,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Barrel Fever</h1>
-        <h2>
-          On the water wagon?
-          <br />
-          'Bend an elbow'
-        </h2>
-        <DrinkForm />
-        <Drinks />
+        <div className="drinklist">
+          <h1>Barrel Fever</h1>
+          <h2>
+            On the water wagon?
+            <br />
+            'Bend an elbow'
+          </h2>
+          <DrinkForm />
+          <Drinks />
+        </div>
       </header>
     </div>
   );

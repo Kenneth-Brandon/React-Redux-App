@@ -4,6 +4,7 @@ const initialState = {
   drink: [],
   isFetchingData: false,
   error: '',
+  count: 0,
 };
 
 export const drinkReducer = (state = initialState, action) => {
@@ -17,6 +18,7 @@ export const drinkReducer = (state = initialState, action) => {
       return {
         drink: action.payload,
         isFetchingData: false,
+        count: state.count + 1,
       };
     case SET_ERROR:
       return {

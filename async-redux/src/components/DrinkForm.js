@@ -9,19 +9,22 @@ const DrinkForm = (props) => {
   };
 
   return (
-    <>
+    <div>
       {props.isFetchingData ? (
         <div>Making your drink...</div>
       ) : (
-        <button onClick={handleGetData}>Pony Up</button>
+        <div>
+          <button onClick={handleGetData}>Pony Up</button>
+        </div>
       )}
-    </>
+    </div>
   );
 };
 
 const mapStateToProps = (state) => {
   return {
     isFetchingData: state.isFetchingData,
+    count: state.count,
   };
 };
 
