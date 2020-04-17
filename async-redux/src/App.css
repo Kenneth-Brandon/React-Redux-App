@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Girassol', cursive;
+  /* font-family: 'Special Elite', cursive; */
 }
 .App-header {
   background-image: url('img/western2.jpg');
