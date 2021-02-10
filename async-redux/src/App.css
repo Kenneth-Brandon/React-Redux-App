@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: 'Girassol', cursive;
+  /* font-family: 'Special Elite', cursive; */
+}
+.App-header {
+  background-image: url('img/western2.jpg');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 0;
+  width: 100%;
+  object-fit: scale-down;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.drink {
+  width: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}
+.drink img {
+  height: 300px;
+  width: 300px;
+  object-fit: scale-down;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 2%;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 1%;
+}
+h2 {
+  font-size: 1.4rem;
+  margin: 1%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  padding: 1%;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-size: 0.8rem;
+  margin-bottom: 3%;
+}
+.drinklist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  width: 30%;
+  color: black;
+  margin-top: 2%;
+  /* opacity: 0.8; */
+  border-radius: 20px;
+}
+
+.how {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
